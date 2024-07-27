@@ -1,0 +1,261 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #CCCCCC;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000066;
+}
+.oneColFixCtrHdr #container {
+	width: 900px;
+	margin: 5px auto;
+	text-align: right;
+	font-size: 12px;
+}
+
+.oneColFixCtrHdr #header {
+	background-image: url(../images/header96/index.gif);
+	height: 87px;
+}
+.oneColFixCtrHdr #mainContent {
+	background-image: url(../images/Frame96/index.gif);
+	height: 434px;
+	overflow: hidden;
+}
+p {
+	direction: rtl;
+}
+
+.oneColFixCtrHdr #homeMainContent {
+	background-image: url(../images/homeFrame96/index.gif);
+	height: 496px;
+	text-align: center;
+}
+#homeMainContent img {
+	border: solid 1px #0A0B6A;
+	margin-top: 11px;
+
+}
+
+
+.oneColFixCtrHdr #footer {
+	background-image: url(../images/stripe96/index.gif);
+	height: 62px;
+	text-align: center;
+}
+#footer a {
+	font-size: large;
+	font-weight: normal;
+	text-decoration: none;
+}
+#FSubMenu {
+	width: 810px;
+	float: left;
+	margin-top: 20px;
+
+}
+
+
+
+
+#footer a:link{
+	color: #000099;
+}
+
+#footer a:visited{
+	color: #000099;
+}
+
+#footer a:hover{
+	color:#EEE
+}
+
+#footer a:active{
+	color:#FFFFFF;
+}
+
+#MCPicture {
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin: 20px 0 0 10px;
+
+}
+#MCTitle {
+	float: right;
+	width: 500px;
+	padding: 20px 15px 0 0;
+}
+#MCText {
+	float: right;
+	width: 500px;
+	padding: 10px 25px 20px 0;
+	direction: ltr;
+	overflow: auto;
+	height: 350px;
+	margin-right: 2px;
+}
+
+#contactInfo {
+	float: left;
+	width: 100px;
+	height: 50px;
+	padding: 0 0 0 0;
+	direction: rtl;
+	overflow: auto;
+	height: 350px;
+}
+#MCStaffDesc {
+	width: 400px;
+	float: right;
+	height: 300px;
+	overflow: auto;
+	margin-top: 20px;
+}
+.stfName {
+	font-weight: bold;
+}
+
+.inlineTitle {
+	font-weight: bold;
+}
+
+.date {
+	font-weight: bold;
+	color: #660033;
+}
+
+
+#mainMenu {
+	direction: rtl;
+	float: left;
+	margin: 50px 0 0 15px;
+	text-align: left;
+	width: 640px;
+}
+#mainMenu a {
+	color: #45404d;
+	background-color: #eec5a2;
+	border: 1px solid #414189;
+	padding: 4px 8px 6px;
+	border-radius: 7px;
+	font-size: 15px;
+	position: relative;
+}
+#mainMenu a:hover {
+	font-weight: normal;
+	color: white;
+}
+#mainMenu a.active:before {
+	content: "";
+	position: absolute;
+	left: -12px;
+	top: -23px;
+	width: 43px;
+	height: 24px;
+	background: url("/images/piegon.png");
+}
+
+#FNext {
+	float: left;
+	margin: 15px 0 0 15px;
+}
+#FBack {
+	float: right;
+	margin: 15px 15px 0 0;
+}
+
+#SMItem {
+	width: 140px;
+	height: 70px;
+	float: left;
+	padding: 20px 15px;
+	text-align: right;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 0;
+	color: #660033;
+}
+h3 {
+	font-size: 1.1em;
+	padding: 0;
+	margin: 0;
+	color: #660066;
+}
+
+ul {
+	list-style-type: circle;
+	padding-top: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+	direction: rtl;
+}
+#teamList {
+	font-size: 12px;
+	float: right;
+	width: 150px;
+	overflow: auto;
+	margin: 20px 15px 0 0;
+}
+a:link {
+	text-decoration: none;
+	color: #0033FF;
+	
+}
+a:visited {
+	text-decoration: none;
+	color: #0033FF;
+}
+a:hover {
+	text-decoration: none;
+	color: #0033FF;
+	font-weight: bold;
+}
+a:active {
+	text-decoration: none;
+	color: #0033FF;
+	overflow: auto;
+}
+
+#MCStaffTitle {
+	clear: both;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+li {
+	margin-top: 4px;
+}
+#teamList ul {
+	list-style-type: none;
+}
+h3 {
+}
+a img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
+	color: #000066;
+}
+#title {
+	float: right;
+	padding: 20px 95px 0 0;
+	width: 140px;
+	height: 64px;
+}
+#whichCourse {
+	width: 205px;
+}
+.pushLeft {
+	margin-right: 20px;
+}
